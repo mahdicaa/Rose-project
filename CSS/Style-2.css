@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --font-color-1: #012b55;
+  --font-color-2: #41576d;
+  --background-color: #f7f8f9;
+  --icon-background: #e5e9ee;
+  --imag-hover: #274a66ce;
+  --hover-text: rgb(255, 255, 255);
+  --background-menu: rgba(0, 0, 0, 0.9);
+  --menu-overlay-a: #c2c2c2;
+  --menu-overlay-hover: #f1f1f1;
+}
+/* This font is a little similar to the base (based on the opinion of one of my classmate) but after a while, I rathered to use Adobe Font! */
+@font-face {
+  font-family: "Rose-project";
+  src: url(../fonts/@font-face/0a9a7c51c594b8c8ce8d4a56d599d9ab.woff2);
+}
+html {
+  scroll-behavior: smooth;
+  font-family: "Adobe-clean", "Source Sans Pro", "apple-system",
+      "BlinkMacSystemFont", "Segoe UI", "Segoe UI", "Roboto", sans-serif;
+}
+
+
+

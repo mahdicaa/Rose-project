@@ -1,0 +1,402 @@
+.entire-back {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: first baseline;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.left {
+  width: 100%;
+  height: auto;
+  padding: 25px;
+}
+.left-top {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page-title {
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--font-color-1);
+}
+.menu-list {
+  display: none;
+}
+.border-icon-container {
+  display: none;
+}
+.right {
+  width: 100%;
+  height: auto;
+}
+.top {
+  background-color: var(--background-color);
+  width: 100%;
+  height: auto;
+}
+.hamber-menu {
+  cursor: pointer;
+}
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: var(--background-menu);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 5%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.overlay a {
+  padding: 17px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: var(--menu-overlay-a);
+  display: block;
+  transition: 0.4s;
+}
+.overlay a:hover,
+.overlay a:focus {
+  color: var(--menu-overlay-hover);
+}
+.overlay .closebtn {
+  position: absolute;
+  top: -10px;
+  right: 15px;
+  font-size: 3.2rem;
+}
+.cover-description-top {
+  padding: 70px 70px 10px 70px;
+}
+.description {
+  color: var(--font-color-1);
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 400;
+}
+.cover-under_description {
+  padding: 30px 0 60px 0px;
+}
+.under_description {
+  text-align: center;
+  font-size: 1.3rem;
+  color: var(--font-color-2);
+}
+.Work-samples {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4px;
+}
+.Work-samples {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4px;
+}
+.samples-group-one {
+  display: flex;
+  flex-direction: column;
+}
+.samples-group-two {
+  display: flex;
+  flex-direction: column;
+}
+.sample {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-bottom: 4px;
+}
+.img {
+  width: 100%;
+  height: 100%;
+}
+.caver {
+  display: none;
+  background-color: var(--imag-hover);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  color: var(--hover-text);
+}
+.sample:hover .caver {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.date {
+  font-family: "bjpg";
+  font-style: italic;
+  font-size: 0.9rem;
+  font-weight: 550;
+  margin-bottom: 4px;
+}
+.cover-description {
+  font-size: 1.7rem;
+  font-weight: 600;
+  padding: 0 20px;
+}
+.border-bottom {
+  padding: 30px;
+}
+.border-icon-container-bottom {
+  display: flex;
+  justify-content: center;
+}
+.icon-container-buttum {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.bottom-text {
+  display: flex;
+  justify-content: center;
+  color: var(--font-color-2);
+}
+.border-bottom-text {
+  padding: 20px;
+}
+.icon-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: var(--icon-background);
+}
+.myBtn {
+  display: none;
+}
+.same {
+  font-weight: bold;
+}
+@media only screen and (min-width: 900px) {
+  .entire-back {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+  }
+  .container {
+    width: 1800px;
+    height: auto;
+    display: flex;
+  }
+  .left {
+    width: 32%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inner-left {
+    height: 600px;
+  }
+  .page-title {
+    color: var(--font-color-1);
+  }
+  .menu-item {
+    margin-bottom: 10px;
+    text-decoration: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .menu-list {
+    color: var(--font-color-2);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.2rem;
+  }
+  .menu-else {
+    font-weight: 700;
+    color: var(--font-color-1);
+    margin: 20px 0 20px 0;
+  }
+  .border-icon-container {
+    display: flex;
+  }
+
+  .border-icon-container-bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .icon-container-left {
+    width: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top {
+    width: 100%;
+    height: auto;
+  }
+  .Work-samples {
+    flex-direction: row;
+    padding-top: 8px;
+  }
+  .samples-group-one {
+    width: 50%;
+    margin-right: 4px;
+  }
+  .samples-group-two {
+    width: 50%;
+    margin-left: 4px;
+  }
+  .sample {
+    margin-bottom: 12px;
+    height: 360px;
+  }
+  .right {
+    height: auto;
+  }
+  .cover-description-top {
+    padding: 90px 130px 10px 130px;
+  }
+  .description {
+    color: #012b55;
+    font-size: 1.88rem;
+    text-align: center;
+    font-weight: 400;
+  }
+  .border-bottom {
+    padding: 60px;
+  }
+  .myBtn {
+    display: inline-block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(211, 208, 208); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    opacity: 0.5;
+  }
+  .myBtn:hover {
+    background-color: #7e7e7e; /* Add a dark-grey background on hover */
+    transition: 0.4s;
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  /* for tablet mode */
+  .description {
+    font-size: 1.2rem;
+  }
+  .entire-back {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: first baseline;
+    justify-content: center;
+  }
+  .container {
+    width: 1800px;
+    height: auto;
+    display: flex;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .menu-list {
+    color: var(--font-color-2);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 1.2rem;
+  }
+  .menu-else {
+    font-weight: 700;
+    color: var(--font-color-1);
+    margin: 20px 0 20px 0;
+  }
+  .menu-item {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+  }
+  .Work-samples {
+    flex-direction: row;
+    padding-top: 8px;
+
+  }
+  .page-title {
+    font-size: 1.6rem;
+    color: var(--font-color-1);
+  }
+  .samples-group-one {
+    width: 50%;
+    margin-right: 4px;
+  }
+  .samples-group-two {
+    width: 50%;
+    margin-left: 4px;
+  }
+  .sample {
+    margin-bottom: 12px;
+    height: 250px;
+  }
+
+  .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inner-left {
+    height: 500px;
+  }
+  .left-top {
+    padding: 15px 70px 0 0;
+  }
+  .sample {
+    margin-bottom: 12px;
+    height: 250px;
+  }
+  .myBtn {
+    display: inline-block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(211, 208, 208); /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+    opacity: 0.5;
+  }
+}
